@@ -259,7 +259,7 @@ body {
     display: inline-block;
     font-size: 16px;
     letter-spacing: 3px;
-    color: var(--clr-dark-two);
+    color: hsl(214deg 5% 80%);
     font-weight: 700;
 }
 
