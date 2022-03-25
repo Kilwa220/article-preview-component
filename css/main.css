@@ -52,7 +52,7 @@ body {
 }
 /* END BODY */
 
-/* START ARTICLE */
+/* STARTmain */
 .container {
   display: flex;
   align-items: center;
@@ -60,7 +60,7 @@ body {
   height: 100vh;
 }
 
-.article {
+mamain {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -72,12 +72,12 @@ body {
 }
 
 @media (min-width: 768px) {
-  .article {
+  main {
     flex-direction: row;
   }
 }
 
-.article .image {
+main .image {
   width: 100%;
   max-width: 100%;
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@ body {
 }
 
 @media (min-width: 768px) {
-  .article .image {
+  main .image {
     border-radius: 10px 0 0 10px;
     width: 318px;
     min-height: 0;
@@ -96,7 +96,7 @@ body {
   }
 }
 
-.article .article-content {
+main .article-content {
   flex: 1;
   z-index: 1;
   background-color: white;
@@ -106,19 +106,19 @@ body {
   border-radius: 0 0 10px 10px;
 }
 
-.article-content h2 {
+.article-content h1 {
   color: var(--clr-dark-one);
   font-size: 16.5px;
 }
 
 @media (min-width: 768px) {
-  .article .article-content {
+  main .article-content {
     border-radius: 0 10px 10px 0;
   }
-  .article-content h2 {
+  .article-content h1 {
     font-size: 20px;
   }
-  .article .article-content {
+  main .article-content {
     padding: 35px 40px;
   }
 }
@@ -330,7 +330,7 @@ body {
     margin: 0;
   }
 }
-/* END ARTICLE */
+/* ENDmain */
 
 /* START ATTRUBITION*/
 .attribution {
