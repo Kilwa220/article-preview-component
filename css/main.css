@@ -47,7 +47,7 @@ a {
 /* START BODY */
 body {
     font-family: 'Manrope', sans-serif;
-    
+    margin-top: 20px;
     font-size: 13px;
     background-color: var(--clr-blue-two);
 }
@@ -59,7 +59,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    height: calc(100vh - 80px)
+    height: 80vh
 }
 
 .article {
