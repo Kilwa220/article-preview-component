@@ -47,7 +47,6 @@ a {
 /* START BODY */
 body {
     font-family: 'Manrope', sans-serif;
-    margin-top: 20px;
     font-size: 13px;
     background-color: var(--clr-blue-two);
 }
@@ -58,8 +57,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    height: 80vh
+    height: 100vh
 }
 
 .article {
