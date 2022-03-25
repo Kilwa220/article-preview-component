@@ -58,8 +58,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
-    height: calc(100vh - 90px);
+    margin-top: 20px;
+    height: calc(100vh - 80px)
 }
 
 .article {
@@ -352,6 +352,7 @@ body {
 
 /* START ATTRUBITION*/
 .attribution {
+    height: 30px;
     text-align: center
 }
 
