@@ -199,7 +199,7 @@ main .article-content {
   text-align: center;
   padding: 0 40px;
   border-radius: 0 0 10px 10px;
-  transition: 0.5s;
+  transition: opacity 0.5s;
 }
 
 @media (min-width: 768px) {
